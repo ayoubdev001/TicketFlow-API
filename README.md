@@ -2,7 +2,7 @@
 
 A REST API for managing customer support tickets — creation, tracking, status transitions, categorization, and prioritization. Built with a layered architecture (Router → Controller → Service → Repository → Database) and validated by a CI pipeline on every push/PR.
 
-![CI](https://github.com/<your-username>/<your-repo>/actions/workflows/ci.yml/badge.svg)
+https://github.com/<your-username>/<your-repo>/actions/workflows/ci.yml/badge.svg
 
 ## Tech Stack
 
