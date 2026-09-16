@@ -110,7 +110,7 @@ TICKET
 ## Project Structure
 
 ```
-![alt text](8yfrtwyu.png)
+![alt text](image.png)
 ```
 
 ## CI Pipeline
