@@ -1,3 +1,4 @@
+<div align="center">
 # TicketFlow API
 
 A REST API for managing customer support tickets — creation, tracking, status transitions, categorization, and prioritization. Built with a layered architecture (Router → Controller → Service → Repository → Database) and validated by a CI pipeline on every push/PR.
