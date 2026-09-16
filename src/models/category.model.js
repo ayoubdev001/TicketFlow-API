@@ -10,7 +10,7 @@ const Category = sequelize.define(
       autoIncrement: true,
     },
     name: {
-      type: DataTypes.STRING(100),
+      type: DataTypes.STRING,
       allowNull: false,
       unique: true,
     },
