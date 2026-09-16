@@ -4,6 +4,7 @@ A REST API for managing customer support tickets — creation, tracking, status 
 
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/9e4f19e1-3865-41f2-9b51-1d48b1283863" />
 
+
 ## Tech Stack
 
 - **Runtime:** Node.js (ESM — `"type": "module"`)
