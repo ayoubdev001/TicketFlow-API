@@ -34,7 +34,7 @@ export async function getTicketById(id) {
 
 export async function createTicket(data) {
 
-  const { status, ...rest } = data;
+  const { status: _status, ...rest } = data;
   return ticketRepository.create({ ...rest, status: 'open' });
 }
 
@@ -46,7 +46,7 @@ export async function updateTicketStatus(id, newStatus) {
 
 export async function updateTicket(id, data) {
 
-  const { status, ...rest } = data;
+  const { status: _status, ...rest } = data;
   const updated = await ticketRepository.update(id, rest);
   if (!updated) {
     const err = new Error('Ticket not found');
