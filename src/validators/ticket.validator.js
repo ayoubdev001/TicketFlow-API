@@ -1,0 +1,14 @@
+import { z } from 'zod';
+
+export const createTicketSchema = z.object({
+  title: z.string().min(1, 'Title is required').max(200),
+  description: z.string().optional(),
+  priority: z.enum(['low', 'medium', 'high']).optional(),
+  category_id: z.number().int().positive().optional(),
+});
+
+export const updateTicketSchema = createTicketSchema.partial();
+
+export const updateStatusSchema = z.object({
+  status: z.enum(['open', 'in_progress', 'resolved', 'closed']),
+});
