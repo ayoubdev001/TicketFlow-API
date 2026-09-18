@@ -1,6 +1,9 @@
+<div align="center">
 # TicketFlow API
 
 A REST API for managing customer support tickets — creation, tracking, status transitions, categorization, and prioritization. Built with a layered architecture (Router → Controller → Service → Repository → Database) and validated by a CI pipeline on every push/PR.
+
+![CI](https://github.com/ayoubdev001/[YOUR-REPO](https://github.com/ayoubdev001/TicketFlow-API.git)/actions/workflows/ci.yml/badge.svg)
 
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/9e4f19e1-3865-41f2-9b51-1d48b1283863" />
 
@@ -108,7 +111,9 @@ TICKET
 
 ## Project Structure
 
+```
 ![alt text](image.png)
+```
 
 ## CI Pipeline
 
